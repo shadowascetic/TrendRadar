@@ -1,3 +1,120 @@
+
+````markdown
+# TrendRadar (个性化增强版)
+
+本项目派生自 [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)，并在原项目基础上进行了深度定制和功能增强。
+
+这是一个全自动的热点新闻聚合、过滤和推送工具。它通过 GitHub Actions 每日定时抓取各大平台的热点榜单，根据您自己定义的关键词列表进行智能过滤和排序，最终通过 Telegram、企业微信、钉钉、飞书以及 **RSS 订阅源**等多种方式，将您最感兴趣的热点新闻精准推送到您面前。
+
+## ✨ 主要特性 (Key Features)
+
+* **多平台聚合**：支持抓取今日头条、百度热搜、知乎、微博、财联社等多个主流平台的热点新闻。
+* **高度个性化**：通过简单的 `frequency_words.txt` 文件配置，即可实现对特定人物、公司、技术或社会事件的精准监控。
+* **多种推送渠道**：
+    * 实时消息推送：支持 **Telegram**, **企业微信**, **钉钉**, **飞书**。
+    * **RSS 订阅源生成 (新增)**：自动生成一个永久固定的 RSS 订阅地址，方便您在任何 RSS 阅读器中聚合阅读。
+* **全自动运行**：基于 GitHub Actions，无需您自己的服务器，每日在指定时间（默认为北京时间 8:30, 12:30, 21:30）自动完成所有任务。
+* **自动存档与报告**：自动生成每日的 HTML 报告，并将抓取到的原始数据和报告提交回本仓库，方便回顾。
+
+## 🚀 快速开始 (Quick Start)
+
+### 1. 准备工作：创建 Fork
+如果您还没有，请先 fork 本仓库到您自己的 GitHub 账户下。
+
+### 2. 配置密钥 (Secrets)
+进入您 fork 后的仓库页面，点击 `Settings` > `Secrets and variables` > `Actions`。点击 `New repository secret` 创建以下密钥，用于存放各个平台的推送凭证：
+
+* `TELEGRAM_BOT_TOKEN`: (可选) 您的 Telegram 机器人 Token。
+* `TELEGRAM_CHAT_ID`: (可选) 您的 Telegram 用户或频道的 Chat ID。
+* `FEISHU_WEBHOOK_URL`: (可选) 飞书机器人的 Webhook 地址。
+* `DINGTALK_WEBHOOK_URL`: (可选) 钉钉机器人的 Webhook 地址。
+* `WEWORK_WEBHOOK_URL`: (可选) 企业微信机器ンの Webhook 地址。
+
+### 3. 创建 `requirements.txt` 依赖文件
+在您仓库的根目录下，创建一个名为 `requirements.txt` 的文件，并填入以下内容。这是程序运行所必需的依赖库。
+
+```text
+requests
+pytz
+feedgen
+````
+
+### 4\. 配置关键词 `frequency_words.txt`
+
+在您仓库的根目录下，编辑 `frequency_words.txt` 文件。每一行代表一个关键词，空行用于分隔不同的关键词组。程序会推送包含这些关键词的新闻。
+
+### 5\. 配置工作流 `crawler.yml`
+
+您可以编辑 `.github/workflows/crawler.yml` 文件来修改程序的运行时间和频率。默认配置如下：
+
+```yaml
+name: Hot News Crawler
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 北京时间 08:30
+    - cron: '30 4 * * *'   # 北京时间 12:30
+    - cron: '30 13 * * *'  # 北京时间 21:30
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: Install dependencies from requirements.txt
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run crawler
+      env:
+        # ... 此处引用您在 Secrets 中设置的密钥 ...
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        # ... etc
+      run: python main.py
+    - name: Commit and push if changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add -A
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update by GitHub Actions at $(TZ=Asia/Shanghai date)" && git push)
+```
+
+### 6\. 修改 `main.py` 以支持 RSS
+
+请确保您已根据我们的讨论，在 `main.py` 中添加了 `generate_rss_feed` 函数并进行了相应的调用。
+
+## 🛠️ 使用说明 (Usage)
+
+完成以上所有配置后，GitHub Actions 将会根据您设定的时间自动运行。
+
+  * **消息推送**：您会在配置好的 Telegram 等平台收到过滤后的新闻推送。
+  * **查看报告**：生成的 HTML 报告和原始数据会保存在仓库的 `output` 文件夹中。
+  * **RSS 订阅**：
+      * 程序运行后，会在 `output` 目录下生成一个 `daily_summary.xml` 文件。
+      * 您的**永久 RSS 订阅地址**是：
+        ```
+        [https://raw.githubusercontent.com/shadowascetic/TrendRadar/master/output/daily_summary.xml](https://raw.githubusercontent.com/shadowascetic/TrendRadar/master/output/daily_summary.xml)
+        ```
+      * 将此地址添加到任何 RSS 阅读器即可开始订阅。
+
+## 致谢 (Acknowledgements)
+
+感谢原作者 [sansan0](https://github.com/sansan0) 开发了 TrendRadar 这个优秀的项目。
+
+```
+```
+---------------------------------------------------------
+
 <div align="center">
 
 # 🎯 TrendRadar
