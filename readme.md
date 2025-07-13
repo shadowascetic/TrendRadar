@@ -1,5 +1,4 @@
 
-````markdown
 # TrendRadar (个性化增强版)
 
 本项目派生自 [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)，并在原项目基础上进行了深度定制和功能增强。
@@ -37,7 +36,7 @@
 requests
 pytz
 feedgen
-````
+
 
 ### 4\. 配置关键词 `frequency_words.txt`
 
