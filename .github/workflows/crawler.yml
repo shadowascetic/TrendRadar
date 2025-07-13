@@ -2,7 +2,10 @@ name: Hot News Crawler
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 每50分钟运行一次
+    # 将原来的 cron 删除，替换为以下三行
+    - cron: '30 0 * * *'   # 对应 UTC 00:30，即北京时间 08:30
+    - cron: '30 4 * * *'   # 对应 UTC 04:30，即北京时间 12:30
+    - cron: '30 13 * * *'  # 对应 UTC 13:30，即北京时间 21:30
   workflow_dispatch:
 
 # 添加权限设置
