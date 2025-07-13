@@ -1777,7 +1777,7 @@ class ReportGenerator:
         if format_type == "wework":
             base_header = f"**总新闻数：** {total_titles}\n\n\n\n"
         elif format_type == "telegram":
-            base_header = f"总新闻数： {total_titles}\n\n"
+            base_header = f"总新闻数： {total_titles}\n"
 
         base_footer = ""
         if format_type == "wework":
@@ -1785,7 +1785,7 @@ class ReportGenerator:
             if update_info:
                 base_footer += f"\n> TrendRadar 发现新版本 **{update_info['remote_version']}**，当前 **{update_info['current_version']}**"
         elif format_type == "telegram":
-            base_footer = f"\n\n更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}"
+            base_footer = f"\n更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}"
             if update_info:
                 base_footer += f"\nTrendRadar 发现新版本 {update_info['remote_version']}，当前 {update_info['current_version']}"
 
@@ -1851,11 +1851,11 @@ class ReportGenerator:
                         )
                 elif format_type == "telegram":
                     if count >= 10:
-                        word_header = f"🔥 {sequence_display} {word} : {count} 条\n\n"
+                        word_header = f"🔥 {sequence_display} {word} : {count} 条\n"
                     elif count >= 5:
-                        word_header = f"📈 {sequence_display} {word} : {count} 条\n\n"
+                        word_header = f"📈 {sequence_display} {word} : {count} 条\n"
                     else:
-                        word_header = f"📌 {sequence_display} {word} : {count} 条\n\n"
+                        word_header = f"◉ {sequence_display} {word} : {count} 条\n"
 
                 # 构建第一条新闻
                 first_news_line = ""
@@ -1873,8 +1873,6 @@ class ReportGenerator:
                         formatted_title = f"{first_title_data['title']}"
 
                     first_news_line = f"  1. {formatted_title}\n"
-                    if len(stat["titles"]) > 1:
-                        first_news_line += "\n"
 
                 # 原子性检查：词组标题+第一条新闻必须一起处理
                 word_with_first_news = word_header + first_news_line
@@ -1910,8 +1908,6 @@ class ReportGenerator:
                         formatted_title = f"{title_data['title']}"
 
                     news_line = f"  {j + 1}. {formatted_title}\n"
-                    if j < len(stat["titles"]) - 1:
-                        news_line += "\n"
 
                     test_content = current_batch + news_line
                     if (
@@ -1935,7 +1931,7 @@ class ReportGenerator:
                     if format_type == "wework":
                         separator = f"\n\n\n\n"
                     elif format_type == "telegram":
-                        separator = f"\n\n"
+                        separator = f"\n"
 
                     test_content = current_batch + separator
                     if (
