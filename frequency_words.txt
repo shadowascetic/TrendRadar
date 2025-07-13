@@ -59,6 +59,8 @@ FastAPI
 Django
 Flask
 
+Python
+
 Pandas
 NumPy
 Scikit-learn
@@ -210,11 +212,7 @@ Tesla
 国潮
 直播带货
 
-# --- 太空探索 ---
-月球
-登月
-火星
-宇宙
-飞船
-嫦娥
-天问
+# --- 捕获所有热点 (新增这个组) ---
+的
+是
+了
