@@ -5,6 +5,8 @@ Gemini
 DeepMind
 Bard
 Gemma
+Notebooklm
+AI Studio
 !gai
 
 安卓
@@ -14,6 +16,7 @@ YouTube
 Google Workspace
 Gmail
 Google Drive
+Google Calendar
 Google Cloud
 GCP
 
