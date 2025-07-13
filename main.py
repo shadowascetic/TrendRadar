@@ -1138,13 +1138,13 @@ class ReportGenerator:
         id_to_alias: Dict,
         output_filename: str = "rss.xml"
     ) -> str:
-        """生成 RSS 订阅源文件"""
+        """生成 RSS 订阅源文件 (已修正循环逻辑)"""
         print("开始生成 RSS 订阅源...")
-    
+        
         # 1. 初始化 FeedGenerator
         fg = FeedGenerator()
         fg.title('TrendRadar 热点聚合')
-        fg.link(href='https://github.com/shadowascetic/TrendRadar', rel='alternate') # 此处链接会自动指向您的仓库
+        fg.link(href='https://github.com/shadowascetic/TrendRadar', rel='alternate')
         fg.description('由 TrendRadar 项目生成的每日热点新闻聚合')
         fg.language('zh-CN')
     
@@ -1154,7 +1154,15 @@ class ReportGenerator:
             for title_data in stat["titles"]:
                 all_titles.append(title_data)
     
-        # 按最后出现时间倒序排列，最新的在最前面
+        if not all_titles:
+            print("没有可用于生成 RSS 的新闻条目。")
+            # 即使没有内容，也生成一个空的RSS文件以表示成功运行
+            output_dir = Path("output")
+            FileHelper.ensure_directory_exists(str(output_dir))
+            output_path = output_dir / output_filename
+            fg.rss_file(str(output_path), pretty=True)
+            return str(output_path)
+    
         try:
             all_titles.sort(key=lambda x: x.get('last_time', '00时00分'), reverse=True)
         except Exception as e:
@@ -1164,56 +1172,52 @@ class ReportGenerator:
         beijing_tz = pytz.timezone("Asia/Shanghai")
         today = TimeHelper.get_beijing_time().date()
     
+        # --- 核心循环开始 ---
         for title_data in all_titles:
-            fe = fg.add_entry()
-    
-            cleaned_title = DataProcessor.clean_title(title_data['title'])
-            source_alias = title_data['source_alias']
-            fe.title(f"[{source_alias}] {cleaned_title}")
-    
-            link_url = title_data.get("mobileUrl") or title_data.get("url")
-            # 确保有链接，否则RSS条目无效
-            if link_url:
-                fe.link(href=link_url)
-            else:
-                fe.link(href=f"https://github.com/shadowascetic/TrendRadar#item-{cleaned_title}")
-    
-            # 构建描述内容
-            rank_display = f"排名: {min(title_data.get('ranks', ['N/A']))}"
-            count_display = f"出现次数: {title_data.get('count', 1)}"
-            time_display = f"时间范围: {title_data.get('time_display', '')}"
-            description_content = f"{rank_display} | {count_display} | {time_display}"
-            fe.description(description_content)
-    
-            # 设置文章ID，确保唯一性
-            fe.id(link_url if link_url else cleaned_title)
-    
-            # 设置发布时间
+            # 使用 try-except 包裹整个循环体，防止某条异常数据导致整个RSS生成失败
             try:
-                # 解析 "HH时MM分" 格式
+                fe = fg.add_entry()
+                
+                cleaned_title = DataProcessor.clean_title(title_data['title'])
+                source_alias = title_data['source_alias']
+                fe.title(f"[{source_alias}] {cleaned_title}")
+    
+                link_url = title_data.get("mobileUrl") or title_data.get("url")
+                if link_url:
+                    fe.link(href=link_url)
+                else:
+                    fe.link(href=f"https://github.com/shadowascetic/TrendRadar#item-{cleaned_title}")
+    
+                rank_display = f"排名: {min(title_data.get('ranks', ['N/A']))}"
+                count_display = f"出现次数: {title_data.get('count', 1)}"
+                time_display = f"时间范围: {title_data.get('time_display', '')}"
+                description_content = f"{rank_display} | {count_display} | {time_display}"
+                fe.description(description_content)
+    
+                fe.id(link_url if link_url else cleaned_title)
+    
                 time_str = title_data.get('last_time', TimeHelper.format_time_filename())
                 hour = int(time_str.split('时')[0])
                 minute = int(time_str.split('时')[1].replace('分',''))
-    
-                # 合并日期和时间，并设置为北京时区
+                
                 pub_datetime_naive = datetime.combine(today, datetime.min.time()).replace(hour=hour, minute=minute)
                 pub_datetime_aware = beijing_tz.localize(pub_datetime_naive)
                 fe.pubDate(pub_datetime_aware)
     
-            except (ValueError, IndexError):
-                # 如果时间格式解析失败，使用当前时间作为备用
-                fe.pubDate(TimeHelper.get_beijing_time())
+            except Exception as e:
+                # 如果单条新闻处理出错，打印错误并继续处理下一条，而不是中断整个流程
+                print(f"处理RSS条目时发生错误: {title_data.get('title', '未知标题')}, 错误: {e}")
+                continue
+        # --- 核心循环结束 ---
     
-        # 4. 生成 RSS 文件到固定的 output 目录
-            output_dir = Path("output")
-            FileHelper.ensure_directory_exists(str(output_dir)) # 确保 output 目录存在
-    
-            # 直接将RSS文件保存到 output 目录下，实现固定地址
-            output_path = output_dir / output_filename
-            fg.rss_file(str(output_path), pretty=True)
-            
-            print(f"RSS 订阅源已生成: {output_path} (固定地址)")
-            return str(output_path)
+        # 4. 【关键】在所有循环都执行完毕后，再执行保存文件的操作
+        output_dir = Path("output")
+        FileHelper.ensure_directory_exists(str(output_dir))
+        output_path = output_dir / output_filename
+        fg.rss_file(str(output_path), pretty=True)
+        
+        print(f"RSS 订阅源已生成: {output_path} (包含 {len(fg.entry())} 个条目)")
+        return str(output_path)
     
     @staticmethod
     def _prepare_report_data(
