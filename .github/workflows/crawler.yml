@@ -2,13 +2,13 @@ name: Hot News Crawler
 
 on:
   schedule:
-    # 将原来的 cron 删除，替换为以下三行
-    - cron: '30 0 * * *'   # 对应 UTC 00:30，即北京时间 08:30
-    - cron: '30 4 * * *'   # 对应 UTC 04:30，即北京时间 12:30
-    - cron: '30 13 * * *'  # 对应 UTC 13:30，即北京时间 21:30
+    # 您的定时运行设置
+    - cron: '30 0 * * *'   # 北京时间 08:30
+    - cron: '30 4 * * *'   # 北京时间 12:30
+    - cron: '30 13 * * *'  # 北京时间 21:30
   workflow_dispatch:
 
-# 添加权限设置
+# 保留您的权限设置
 permissions:
   contents: write
 
@@ -25,11 +25,14 @@ jobs:
       with:
         python-version: '3.9'
     
-    - name: Install dependencies
+    # --- 这里是唯一的修改点 ---
+    - name: Install dependencies from requirements.txt
       run: |
         python -m pip install --upgrade pip
-        pip install requests pytz
+        # 从 requirements.txt 文件安装所有依赖 (包括 requests, pytz, 和 feedgen)
+        pip install -r requirements.txt
     
+    # 保留您的“创建文件”步骤
     - name: Create frequency_words.txt if not exists
       run: |
         if [ ! -f frequency_words.txt ]; then
@@ -37,6 +40,7 @@ jobs:
           touch frequency_words.txt
         fi
     
+    # 保留您的“运行爬虫”步骤和所有的环境变量
     - name: Run crawler
       env:
         FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
@@ -47,6 +51,7 @@ jobs:
         GITHUB_ACTIONS: true
       run: python main.py
     
+    # 保留您的“提交和推送”步骤
     - name: Commit and push if changes
       run: |
         git config --global user.name 'GitHub Actions'
