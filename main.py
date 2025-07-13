@@ -1204,17 +1204,16 @@ def generate_rss_feed(
             # 如果时间格式解析失败，使用当前时间作为备用
             fe.pubDate(TimeHelper.get_beijing_time())
 
-    # 4. 生成 RSS 文件到 output 目录
-    date_folder = TimeHelper.format_date_folder()
-    output_dir = Path("output") / date_folder
-    FileHelper.ensure_directory_exists(str(output_dir))
+    # 4. 生成 RSS 文件到固定的 output 目录
+        output_dir = Path("output")
+        FileHelper.ensure_directory_exists(str(output_dir)) # 确保 output 目录存在
 
-    # 将RSS文件也保存到带日期的文件夹中
-    output_path = output_dir / output_filename
-    fg.rss_file(str(output_path), pretty=True)
-
-    print(f"RSS 订阅源已生成: {output_path}")
-    return str(output_path)
+        # 直接将RSS文件保存到 output 目录下，实现固定地址
+        output_path = output_dir / output_filename
+        fg.rss_file(str(output_path), pretty=True)
+        
+        print(f"RSS 订阅源已生成: {output_path} (固定地址)")
+        return str(output_path)
     
     @staticmethod
     def _prepare_report_data(
