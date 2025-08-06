@@ -1090,7 +1090,44 @@ class StatisticsCalculator:
             return first_time
         else:
             return f"[{first_time} ~ {last_time}]"
+    @staticmethod
+    def calculate_top_hot_news(
+        title_info: Dict, id_to_alias: Dict, top_n: int = 10
+    ) -> List[Dict]:
+        """
+        计算全网最热的N条新闻，不依赖频率词
+        :param title_info: 包含所有标题信息的字典
+        :param id_to_alias: ID到别名的映射
+        :param top_n: 需要返回的热门新闻数量
+        :return: 排序后的热门新闻列表
+        """
+        print("开始计算全网 Top 10 热点新闻...")
+        all_news = []
 
+        for source_id, titles in title_info.items():
+            source_alias = id_to_alias.get(source_id, source_id)
+            for title, info in titles.items():
+                min_rank = min(info.get("ranks", [99]))
+                count = info.get("count", 1)
+
+                # 计算热度分，给予高排名巨大权重
+                hotness_score = (20 - min_rank) * 5 + (count * 3)
+
+                all_news.append({
+                    "title": title,
+                    "source_alias": source_alias,
+                    "min_rank": min_rank,
+                    "count": count,
+                    "hotness_score": hotness_score,
+                    "url": info.get("url", ""),
+                    "mobileUrl": info.get("mobileUrl", "")
+                })
+
+        # 按热度分从高到低排序
+        sorted_news = sorted(all_news, key=lambda x: x["hotness_score"], reverse=True)
+        
+        print(f"计算完成，全网最热 Top {top_n} 新闻已选出。")
+        return sorted_news[:top_n]
 
 class ReportGenerator:
     """报告生成器"""
@@ -2488,7 +2525,84 @@ class ReportGenerator:
         print(f"Telegram所有 {len(batches)} 批次发送完成 [{report_type}]")
         return True
 
+    @staticmethod
+    def send_top_10_hot_news_to_webhooks(
+        top_10_news: List[Dict],
+        proxy_url: Optional[str] = None
+    ) -> None:
+        """专门用于发送 Top 10 热点新闻的通知"""
+        print("准备推送 Top 10 热点新闻...")
+        
+        # 1. 构造通知内容
+        # 使用飞书的Markdown格式作为通用模板，其他平台稍作调整
+        content_lines = ["**今日全网热点 Top 10**\n"]
+        for i, news in enumerate(top_10_news, 1):
+            title = DataProcessor.clean_title(news['title'])
+            url = news.get("mobileUrl") or news.get("url")
+            source = news['source_alias']
+            
+            # 表情符号根据排名
+            emoji = "🥇" if i == 1 else "🥈" if i == 2 else "🥉" if i == 3 else f"**{i}.**"
 
+            if url:
+                line = f"{emoji} <font color='grey'>[{source}]</font> [{title}]({url})"
+            else:
+                line = f"{emoji} <font color='grey'>[{source}]</font> {title}"
+            
+            content_lines.append(line)
+        
+        now = TimeHelper.get_beijing_time()
+        content_lines.append(f"\n<font color='grey'>更新时间：{now.strftime('%Y-%m-%d %H:%M:%S')}</font>")
+        
+        feishu_content = "\n".join(content_lines)
+
+        # 2. 获取 Webhook 配置
+        feishu_url = os.environ.get("FEISHU_WEBHOOK_URL", CONFIG["FEISHU_WEBHOOK_URL"])
+        dingtalk_url = os.environ.get("DINGTALK_WEBHOOK_URL", CONFIG["DINGTALK_WEBHOOK_URL"])
+        wework_url = os.environ.get("WEWORK_WEBHOOK_URL", CONFIG["WEWORK_WEBHOOK_URL"])
+        telegram_token = os.environ.get("TELEGRAM_BOT_TOKEN", CONFIG["TELEGRAM_BOT_TOKEN"])
+        telegram_chat_id = os.environ.get("TELEGRAM_CHAT_ID", CONFIG["TELEGRAM_CHAT_ID"])
+
+        # 3. 逐个平台发送
+        proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else None
+        
+        # 发送到飞书
+        if feishu_url:
+            payload = {"msg_type": "text", "content": {"text": feishu_content}}
+            try:
+                requests.post(feishu_url, json=payload, proxies=proxies, timeout=10)
+                print("Top 10 热点新闻 -> 飞书，发送成功")
+            except Exception as e:
+                print(f"Top 10 热点新闻 -> 飞书，发送失败: {e}")
+
+        # 发送到钉钉/企业微信 (Markdown基本兼容)
+        dingtalk_wework_content = feishu_content.replace("<font color='grey'>", "").replace("</font>", "")
+        if dingtalk_url:
+            payload = {"msgtype": "markdown", "markdown": {"title": "今日全网热点 Top 10", "text": dingtalk_wework_content}}
+            try:
+                requests.post(dingtalk_url, json=payload, proxies=proxies, timeout=10)
+                print("Top 10 热点新闻 -> 钉钉，发送成功")
+            except Exception as e:
+                print(f"Top 10 热点新闻 -> 钉钉，发送失败: {e}")
+        
+        if wework_url:
+            payload = {"msgtype": "markdown", "markdown": {"content": dingtalk_wework_content}}
+            try:
+                requests.post(wework_url, json=payload, proxies=proxies, timeout=10)
+                print("Top 10 热点新闻 -> 企业微信，发送成功")
+            except Exception as e:
+                print(f"Top 10 热点新闻 -> 企业微信，发送失败: {e}")
+
+        # 发送到 Telegram
+        if telegram_token and telegram_chat_id:
+            telegram_content = feishu_content.replace("<font color='grey'>", "<i>").replace("</font>", "</i>")
+            payload = {"chat_id": telegram_chat_id, "text": telegram_content, "parse_mode": "HTML"}
+            url = f"https://api.telegram.org/bot{telegram_token}/sendMessage"
+            try:
+                requests.post(url, json=payload, proxies=proxies, timeout=10)
+                print("Top 10 热点新闻 -> Telegram，发送成功")
+            except Exception as e:
+                print(f"Top 10 热点新闻 -> Telegram，发送失败: {e}")
 class NewsAnalyzer:
     """新闻分析器"""
 
@@ -2551,7 +2665,7 @@ class NewsAnalyzer:
             return has_matched_news or has_new_news
 
     def generate_daily_summary(self) -> Optional[str]:
-        """生成当日统计报告"""
+        """生成当日统计报告，并在特定时间推送Top 10"""
         print("生成当日统计报告...")
 
         all_results, id_to_alias, title_info = DataProcessor.read_all_today_titles()
@@ -2599,39 +2713,40 @@ class NewsAnalyzer:
                 ),
             ]
         )
-
-        if (
-            CONFIG["ENABLE_NOTIFICATION"]
-            and has_webhook
-            and self.report_type in ["daily", "both"]
-            and self._has_valid_content(stats, new_titles)
-        ):
-            hide_new_section = CONFIG["FOCUS_NEW_ONLY"]
-
-            ReportGenerator.send_to_webhooks(
-                stats,
-                [],
-                "当日汇总",
-                new_titles,
-                id_to_alias,
-                self.update_info,
-                self.proxy_url,
-                hide_new_section=hide_new_section,
-            )
-        elif CONFIG["ENABLE_NOTIFICATION"] and not has_webhook:
-            print("⚠️ 警告：通知功能已启用但未配置webhook URL，将跳过通知发送")
-        elif not CONFIG["ENABLE_NOTIFICATION"]:
-            print("跳过当日汇总通知：通知功能已禁用")
-        elif (
-            CONFIG["ENABLE_NOTIFICATION"]
-            and has_webhook
-            and not self._has_valid_content(stats, new_titles)
-        ):
-            if CONFIG["FOCUS_NEW_ONLY"]:
-                print("跳过当日汇总通知：新增模式下未检测到匹配的新增新闻")
+        
+        # --- [核心修改] ---
+        # 只有在 webhook 配置存在时才执行以下逻辑
+        if CONFIG["ENABLE_NOTIFICATION"] and has_webhook:
+            # 1. 执行原有的每日汇总推送 (基于 frequency_words.txt)
+            if self.report_type in ["daily", "both"] and self._has_valid_content(stats, new_titles):
+                hide_new_section = CONFIG["FOCUS_NEW_ONLY"]
+                ReportGenerator.send_to_webhooks(
+                    stats,
+                    [],
+                    "当日汇总",
+                    new_titles,
+                    id_to_alias,
+                    self.update_info,
+                    self.proxy_url,
+                    hide_new_section=hide_new_section,
+                )
+            
+            # 2. 【新增功能】在 21 点时段，额外推送 Top 10 全网热点
+            now_hour = TimeHelper.get_beijing_time().hour
+            if now_hour == 21: # 北京时间 21:00 - 21:59
+                top_10_news = StatisticsCalculator.calculate_top_hot_news(title_info, id_to_alias)
+                if top_10_news:
+                    ReportGenerator.send_top_10_hot_news_to_webhooks(top_10_news, self.proxy_url)
+                else:
+                    print("未能计算出 Top 10 新闻，跳过推送。")
             else:
-                print("跳过当日汇总通知：未匹配到有效的新闻内容")
+                print(f"当前小时为 {now_hour}，不执行 Top 10 热点推送。")
 
+        elif not CONFIG["ENABLE_NOTIFICATION"]:
+            print("跳过所有通知：通知功能已禁用")
+        elif not has_webhook:
+            print("⚠️ 警告：通知功能已启用但未配置webhook URL，将跳过所有通知发送")
+        
         return html_file
 
     def run(self) -> None:
