@@ -7,188 +7,356 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Oct 2025 04:34:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 13:15:31 +0000</lastBuildDate>
     <item>
-      <title>[weibo] 旬阳警方辟谣新郎母亲跳江</title>
-      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%AC%E9%98%B3%E8%AD%A6%E6%96%B9%E8%BE%9F%E8%B0%A3%E6%96%B0%E9%83%8E%E6%AF%8D%E4%BA%B2%E8%B7%B3%E6%B1%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D0%26pos%3D8%26q%3D%2523%25E6%2597%25AC%25E9%2598%25B3%25E8%25AD%25A6%25E6%2596%25B9%25E8%25BE%259F%25E8%25B0%25A3%25E6%2596%25B0%25E9%2583%258E%25E6%25AF%258D%25E4%25BA%25B2%25E8%25B7%25B3%25E6%25B1%259F%2523%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D9%26cate%3D5001%26realpos%3D9%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</link>
-      <description>排名: 9 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%AC%E9%98%B3%E8%AD%A6%E6%96%B9%E8%BE%9F%E8%B0%A3%E6%96%B0%E9%83%8E%E6%AF%8D%E4%BA%B2%E8%B7%B3%E6%B1%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D0%26pos%3D8%26q%3D%2523%25E6%2597%25AC%25E9%2598%25B3%25E8%25AD%25A6%25E6%2596%25B9%25E8%25BE%259F%25E8%25B0%25A3%25E6%2596%25B0%25E9%2583%258E%25E6%25AF%258D%25E4%25BA%25B2%25E8%25B7%25B3%25E6%25B1%259F%2523%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D9%26cate%3D5001%26realpos%3D9%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[今日头条] 台风吹倒树木砸死外卖员？茂名辟谣</title>
+      <link>https://www.toutiao.com/trending/7556982251389668883/</link>
+      <description>排名: 11 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7556982251389668883/</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[华尔街见闻] 谁会是低空版“特斯拉”？万亿低空经济赛道全解析【王紫敬大师课4.2】</title>
-      <link>https://wallstreetcn.com/premium/articles/3756095?layout=wscn-layout</link>
-      <description>排名: 10 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://wallstreetcn.com/premium/articles/3756095?layout=wscn-layout</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[华尔街见闻] 政府关门=DOGE 2.0！特朗普新一轮“公务员裁员”迫使美联储降息？</title>
+      <link>https://wallstreetcn.com/articles/3756681</link>
+      <description>排名: 4 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756681</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 胡同居民自制汽车掉头神器</title>
-      <link>https://www.toutiao.com/trending/7557207203904831551/</link>
-      <description>排名: 1 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7557207203904831551/</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[zhihu] 巴菲特为什么清仓了比亚迪？</title>
+      <link>https://www.zhihu.com/question/1953387099500815760</link>
+      <description>排名: 18 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1953387099500815760</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[华尔街见闻] 前瞻OpenAI开发者日：传说中的“消费级AI产品”是什么？</title>
-      <link>https://wallstreetcn.com/articles/3756685</link>
-      <description>排名: 8 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756685</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[财联社热门] 存储将迎“超级周期”？多国芯片巨头上调产品报价 这一分支或面临长期短缺</title>
+      <link>https://www.cls.cn/detail/2162567</link>
+      <description>排名: 7 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.cls.cn/detail/2162567</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 宠物定制摄影 2 万元一套，订单排到一年后，有宠物摄影师年入百万，如何看待这一消费趋势？</title>
-      <link>https://www.zhihu.com/question/1956743348149786221</link>
-      <description>排名: 15 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1956743348149786221</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[华尔街见闻] 到中东搞钱、到东亚搞芯片，Altman的第二次“算力帝国路演”</title>
+      <link>https://wallstreetcn.com/articles/3756688</link>
+      <description>排名: 6 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756688</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[澎湃新闻] 事关中国经济，人民日报连续5天刊发“钟才文”署名文章</title>
-      <link>https://m.thepaper.cn/newsDetail_forward_31726580</link>
-      <description>排名: 7 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_31726580</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[澎湃新闻] 特斯拉人形机器人也会功夫了，马斯克：是AI，不是遥控</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_31729567</link>
+      <description>排名: 16 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_31729567</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 体育赛事“燃动”假日经济</title>
-      <link>https://www.toutiao.com/trending/7557267290417676351/</link>
-      <description>排名: 3 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7557267290417676351/</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[华尔街见闻] 下周重磅日程：OpenAI大会，美联储纪要，中国社融，诺奖揭晓</title>
+      <link>https://wallstreetcn.com/articles/3756667</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756667</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[douyin] 小花木兰奶声奶气甜到心巴上了</title>
-      <link>https://www.douyin.com/hot/2259690</link>
-      <description>排名: 30 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.douyin.com/hot/2259690</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[华尔街见闻] AI服务器拉动显著，鸿海三季度营收创历史同期新高</title>
+      <link>https://wallstreetcn.com/articles/3756694</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756694</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 王俊凯父母开的奶茶店停业</title>
-      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%88%B6%E6%AF%8D%E5%BC%80%E7%9A%84%E5%A5%B6%E8%8C%B6%E5%BA%97%E5%81%9C%E4%B8%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D28%26q%3D%25E7%258E%258B%25E4%25BF%258A%25E5%2587%25AF%25E7%2588%25B6%25E6%25AF%258D%25E5%25BC%2580%25E7%259A%2584%25E5%25A5%25B6%25E8%258C%25B6%25E5%25BA%2597%25E5%2581%259C%25E4%25B8%259A%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D29%26cate%3D5001%26realpos%3D29%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</link>
-      <description>排名: 29 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%88%B6%E6%AF%8D%E5%BC%80%E7%9A%84%E5%A5%B6%E8%8C%B6%E5%BA%97%E5%81%9C%E4%B8%9A&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D28%26q%3D%25E7%258E%258B%25E4%25BF%258A%25E5%2587%25AF%25E7%2588%25B6%25E6%25AF%258D%25E5%25BC%2580%25E7%259A%2584%25E5%25A5%25B6%25E8%258C%25B6%25E5%25BA%2597%25E5%2581%259C%25E4%25B8%259A%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D29%26cate%3D5001%26realpos%3D29%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[华尔街见闻] 市场激辩“AI泡沫”，德银劝投资者：别试图“择时”，长期持有是最佳策略</title>
+      <link>https://wallstreetcn.com/articles/3756693</link>
+      <description>排名: 8 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756693</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[douyin] 明年少种是你的谎言</title>
-      <link>https://www.douyin.com/hot/2259170</link>
-      <description>排名: 24 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.douyin.com/hot/2259170</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[华尔街见闻] 三星和海力士加入“星际之门”，OpenAI给存储芯片“火上浇油”</title>
+      <link>https://wallstreetcn.com/articles/3756689</link>
+      <description>排名: 5 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756689</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 去大同旅游，有什么好的建议与攻略？</title>
-      <link>https://www.zhihu.com/question/647147404</link>
-      <description>排名: 20 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/647147404</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[凤凰网] 高市早苗用反华内容训练AI，曾反对慰安妇内容进教材</title>
+      <link>https://news.ifeng.com/c/8nCpaLejQdz</link>
+      <description>排名: 2 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8nCpaLejQdz</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 命真好头胎生了个月嫂</title>
-      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%91%BD%E7%9C%9F%E5%A5%BD%E5%A4%B4%E8%83%8E%E7%94%9F%E4%BA%86%E4%B8%AA%E6%9C%88%E5%AB%82&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D18%26q%3D%25E5%2591%25BD%25E7%259C%259F%25E5%25A5%25BD%25E5%25A4%25B4%25E8%2583%258E%25E7%2594%259F%25E4%25BA%2586%25E4%25B8%25AA%25E6%259C%2588%25E5%25AB%2582%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D19%26cate%3D5001%26realpos%3D19%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</link>
-      <description>排名: 19 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%91%BD%E7%9C%9F%E5%A5%BD%E5%A4%B4%E8%83%8E%E7%94%9F%E4%BA%86%E4%B8%AA%E6%9C%88%E5%AB%82&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D18%26q%3D%25E5%2591%25BD%25E7%259C%259F%25E5%25A5%25BD%25E5%25A4%25B4%25E8%2583%258E%25E7%2594%259F%25E4%25BA%2586%25E4%25B8%25AA%25E6%259C%2588%25E5%25AB%2582%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D19%26cate%3D5001%26realpos%3D19%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[weibo] 我的十一电子榨菜</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%88%91%E7%9A%84%E5%8D%81%E4%B8%80%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D30%26stream_entry_id%3D31%26q%3D%2523%25E6%2588%2591%25E7%259A%2584%25E5%258D%2581%25E4%25B8%2580%25E7%2594%25B5%25E5%25AD%2590%25E6%25A6%25A8%25E8%258F%259C%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D30%26pos%3D29%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 30 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%88%91%E7%9A%84%E5%8D%81%E4%B8%80%E7%94%B5%E5%AD%90%E6%A6%A8%E8%8F%9C%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D30%26stream_entry_id%3D31%26q%3D%2523%25E6%2588%2591%25E7%259A%2584%25E5%258D%2581%25E4%25B8%2580%25E7%2594%25B5%25E5%25AD%2590%25E6%25A6%25A8%25E8%258F%259C%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D30%26pos%3D29%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[douyin] 当球迷看现场原来是这种感觉</title>
-      <link>https://www.douyin.com/hot/2257851</link>
-      <description>排名: 13 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.douyin.com/hot/2257851</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[百度热搜] “鸡排哥”称国庆只用了60%功力</title>
+      <link>https://www.baidu.com/s?wd=%E2%80%9C%E9%B8%A1%E6%8E%92%E5%93%A5%E2%80%9D%E7%A7%B0%E5%9B%BD%E5%BA%86%E5%8F%AA%E7%94%A8%E4%BA%8660%25%E5%8A%9F%E5%8A%9B</link>
+      <description>排名: 30 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E2%80%9C%E9%B8%A1%E6%8E%92%E5%93%A5%E2%80%9D%E7%A7%B0%E5%9B%BD%E5%BA%86%E5%8F%AA%E7%94%A8%E4%BA%8660%25%E5%8A%9F%E5%8A%9B</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 王祖蓝因父亲去世把46岁当作生命的坎</title>
-      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E7%A5%96%E8%93%9D%E5%9B%A0%E7%88%B6%E4%BA%B2%E5%8E%BB%E4%B8%96%E6%8A%8A46%E5%B2%81%E5%BD%93%E4%BD%9C%E7%94%9F%E5%91%BD%E7%9A%84%E5%9D%8E&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D2%26pos%3D12%26q%3D%25E7%258E%258B%25E7%25A5%2596%25E8%2593%259D%25E5%259B%25A0%25E7%2588%25B6%25E4%25BA%25B2%25E5%258E%25BB%25E4%25B8%2596%25E6%258A%258A46%25E5%25B2%2581%25E5%25BD%2593%25E4%25BD%259C%25E7%2594%259F%25E5%2591%25BD%25E7%259A%2584%25E5%259D%258E%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D13%26cate%3D5001%26realpos%3D13%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</link>
-      <description>排名: 13 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E7%A5%96%E8%93%9D%E5%9B%A0%E7%88%B6%E4%BA%B2%E5%8E%BB%E4%B8%96%E6%8A%8A46%E5%B2%81%E5%BD%93%E4%BD%9C%E7%94%9F%E5%91%BD%E7%9A%84%E5%9D%8E&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D2%26pos%3D12%26q%3D%25E7%258E%258B%25E7%25A5%2596%25E8%2593%259D%25E5%259B%25A0%25E7%2588%25B6%25E4%25BA%25B2%25E5%258E%25BB%25E4%25B8%2596%25E6%258A%258A46%25E5%25B2%2581%25E5%25BD%2593%25E4%25BD%259C%25E7%2594%259F%25E5%2591%25BD%25E7%259A%2584%25E5%259D%258E%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D13%26cate%3D5001%26realpos%3D13%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[douyin] 别不开心了 请你看月亮</title>
+      <link>https://www.douyin.com/hot/2260060</link>
+      <description>排名: 29 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2260060</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 女子开新能源车排队 3 小时充电 1 小时，一路充了 5 次电，这反映了新能源车长途出行的哪些痛点？</title>
-      <link>https://www.zhihu.com/question/1957475739583620155</link>
-      <description>排名: 12 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1957475739583620155</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[douyin] 从鹘鹰到歼35的跨越之路</title>
+      <link>https://www.douyin.com/hot/2260259</link>
+      <description>排名: 25 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2260259</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 固态电池竞赛欧美先拔头筹了吗</title>
-      <link>https://www.toutiao.com/trending/7557554338365705738/</link>
-      <description>排名: 12 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7557554338365705738/</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[douyin] love侧脸P图安排上了</title>
+      <link>https://www.douyin.com/hot/2260304</link>
+      <description>排名: 24 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2260304</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 鹿晗拒绝了粉丝送的冰淇淋</title>
-      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%B9%BF%E6%99%97%E6%8B%92%E7%BB%9D%E4%BA%86%E7%B2%89%E4%B8%9D%E9%80%81%E7%9A%84%E5%86%B0%E6%B7%87%E6%B7%8B&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D10%26q%3D%25E9%25B9%25BF%25E6%2599%2597%25E6%258B%2592%25E7%25BB%259D%25E4%25BA%2586%25E7%25B2%2589%25E4%25B8%259D%25E9%2580%2581%25E7%259A%2584%25E5%2586%25B0%25E6%25B7%2587%25E6%25B7%258B%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D11%26cate%3D5001%26realpos%3D11%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</link>
-      <description>排名: 11 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%B9%BF%E6%99%97%E6%8B%92%E7%BB%9D%E4%BA%86%E7%B2%89%E4%B8%9D%E9%80%81%E7%9A%84%E5%86%B0%E6%B7%87%E6%B7%8B&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D10%26q%3D%25E9%25B9%25BF%25E6%2599%2597%25E6%258B%2592%25E7%25BB%259D%25E4%25BA%2586%25E7%25B2%2589%25E4%25B8%259D%25E9%2580%2581%25E7%259A%2584%25E5%2586%25B0%25E6%25B7%2587%25E6%25B7%258B%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D11%26cate%3D5001%26realpos%3D11%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[weibo] 网购衣服不要只盯着卖衣服的店</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BD%91%E8%B4%AD%E8%A1%A3%E6%9C%8D%E4%B8%8D%E8%A6%81%E5%8F%AA%E7%9B%AF%E7%9D%80%E5%8D%96%E8%A1%A3%E6%9C%8D%E7%9A%84%E5%BA%97%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D24%26stream_entry_id%3D31%26q%3D%2523%25E7%25BD%2591%25E8%25B4%25AD%25E8%25A1%25A3%25E6%259C%258D%25E4%25B8%258D%25E8%25A6%2581%25E5%258F%25AA%25E7%259B%25AF%25E7%259D%2580%25E5%258D%2596%25E8%25A1%25A3%25E6%259C%258D%25E7%259A%2584%25E5%25BA%2597%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D24%26pos%3D23%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 24 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BD%91%E8%B4%AD%E8%A1%A3%E6%9C%8D%E4%B8%8D%E8%A6%81%E5%8F%AA%E7%9B%AF%E7%9D%80%E5%8D%96%E8%A1%A3%E6%9C%8D%E7%9A%84%E5%BA%97%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D24%26stream_entry_id%3D31%26q%3D%2523%25E7%25BD%2591%25E8%25B4%25AD%25E8%25A1%25A3%25E6%259C%258D%25E4%25B8%258D%25E8%25A6%2581%25E5%258F%25AA%25E7%259B%25AF%25E7%259D%2580%25E5%258D%2596%25E8%25A1%25A3%25E6%259C%258D%25E7%259A%2584%25E5%25BA%2597%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D24%26pos%3D23%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[凤凰网] 长白山天池下雪关闭，游客直呼天塌了</title>
-      <link>https://news.ifeng.com/c/8nCVLyej7d3</link>
-      <description>排名: 11 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://news.ifeng.com/c/8nCVLyej7d3</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[百度热搜] 第一批去俄罗斯旅游的人体验如何</title>
+      <link>https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%89%B9%E5%8E%BB%E4%BF%84%E7%BD%97%E6%96%AF%E6%97%85%E6%B8%B8%E7%9A%84%E4%BA%BA%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95</link>
+      <description>排名: 24 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%89%B9%E5%8E%BB%E4%BF%84%E7%BD%97%E6%96%AF%E6%97%85%E6%B8%B8%E7%9A%84%E4%BA%BA%E4%BD%93%E9%AA%8C%E5%A6%82%E4%BD%95</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[凤凰网] 现在让人看得云里雾里的武器，几年后就是战场现实</title>
-      <link>https://news.ifeng.com/c/8nCQ3udlUAu</link>
-      <description>排名: 9 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://news.ifeng.com/c/8nCQ3udlUAu</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[今日头条] 王曼昱：和莎莎的比赛能学习到很多</title>
+      <link>https://www.toutiao.com/trending/7556910685382180883/</link>
+      <description>排名: 24 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7556910685382180883/</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 你用过哪些有效的灭蚊方法</title>
-      <link>https://www.toutiao.com/trending/7557265765519605803/</link>
-      <description>排名: 9 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7557265765519605803/</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[weibo] 瘦了15斤后鼻子的变化</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%98%A6%E4%BA%8615%E6%96%A4%E5%90%8E%E9%BC%BB%E5%AD%90%E7%9A%84%E5%8F%98%E5%8C%96&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D23%26stream_entry_id%3D31%26q%3D%25E7%2598%25A6%25E4%25BA%258615%25E6%2596%25A4%25E5%2590%258E%25E9%25BC%25BB%25E5%25AD%2590%25E7%259A%2584%25E5%258F%2598%25E5%258C%2596%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D0%26c_type%3D31%26realpos%3D23%26pos%3D22%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 23 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%98%A6%E4%BA%8615%E6%96%A4%E5%90%8E%E9%BC%BB%E5%AD%90%E7%9A%84%E5%8F%98%E5%8C%96&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D23%26stream_entry_id%3D31%26q%3D%25E7%2598%25A6%25E4%25BA%258615%25E6%2596%25A4%25E5%2590%258E%25E9%25BC%25BB%25E5%25AD%2590%25E7%259A%2584%25E5%258F%2598%25E5%258C%2596%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D0%26c_type%3D31%26realpos%3D23%26pos%3D22%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 的、地、得的区分是否多此一举？</title>
-      <link>https://www.zhihu.com/question/439188274</link>
-      <description>排名: 7 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/439188274</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[百度热搜] 5两的大闸蟹捆了1两的绳子</title>
+      <link>https://www.baidu.com/s?wd=5%E4%B8%A4%E7%9A%84%E5%A4%A7%E9%97%B8%E8%9F%B9%E6%8D%86%E4%BA%861%E4%B8%A4%E7%9A%84%E7%BB%B3%E5%AD%90</link>
+      <description>排名: 21 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=5%E4%B8%A4%E7%9A%84%E5%A4%A7%E9%97%B8%E8%9F%B9%E6%8D%86%E4%BA%861%E4%B8%A4%E7%9A%84%E7%BB%B3%E5%AD%90</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[财联社热门] 国庆节后A股怎么走？以史为鉴这两大行业上涨概率更高，核心受益标的梳理</title>
-      <link>https://www.cls.cn/detail/2161452</link>
-      <description>排名: 7 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.cls.cn/detail/2161452</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[zhihu] NBA 里两个 3000W 的球员对球队的作用是否大于一个 6000W 的球员？</title>
+      <link>https://www.zhihu.com/question/6375568882</link>
+      <description>排名: 20 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/6375568882</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[bilibili 热搜] 在冰岛看火山爆发是什么体验</title>
-      <link>https://search.bilibili.com/all?keyword=%E5%9C%A8%E5%86%B0%E5%B2%9B%E7%9C%8B%E7%81%AB%E5%B1%B1%E7%88%86%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C</link>
-      <description>排名: 6 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E5%9C%A8%E5%86%B0%E5%B2%9B%E7%9C%8B%E7%81%AB%E5%B1%B1%E7%88%86%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[澎湃新闻] 小勒布伦：中国男单统治力下降，能打败他们的人变多了</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_31730106</link>
+      <description>排名: 20 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_31730106</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 大聪明已经提前到5号返程了</title>
-      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E8%81%AA%E6%98%8E%E5%B7%B2%E7%BB%8F%E6%8F%90%E5%89%8D%E5%88%B05%E5%8F%B7%E8%BF%94%E7%A8%8B%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D3%26q%3D%2523%25E5%25A4%25A7%25E8%2581%25AA%25E6%2598%258E%25E5%25B7%25B2%25E7%25BB%258F%25E6%258F%2590%25E5%2589%258D%25E5%2588%25B05%25E5%258F%25B7%25E8%25BF%2594%25E7%25A8%258B%25E4%25BA%2586%2523%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D4%26cate%3D5001%26realpos%3D4%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</link>
-      <description>排名: 4 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E8%81%AA%E6%98%8E%E5%B7%B2%E7%BB%8F%E6%8F%90%E5%89%8D%E5%88%B05%E5%8F%B7%E8%BF%94%E7%A8%8B%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D3%26q%3D%2523%25E5%25A4%25A7%25E8%2581%25AA%25E6%2598%258E%25E5%25B7%25B2%25E7%25BB%258F%25E6%258F%2590%25E5%2589%258D%25E5%2588%25B05%25E5%258F%25B7%25E8%25BF%2594%25E7%25A8%258B%25E4%25BA%2586%2523%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D4%26cate%3D5001%26realpos%3D4%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[weibo] Celine终于有颜色了</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23Celine%E7%BB%88%E4%BA%8E%E6%9C%89%E9%A2%9C%E8%89%B2%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D19%26stream_entry_id%3D31%26q%3D%2523Celine%25E7%25BB%2588%25E4%25BA%258E%25E6%259C%2589%25E9%25A2%259C%25E8%2589%25B2%25E4%25BA%2586%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D19%26pos%3D18%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 19 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23Celine%E7%BB%88%E4%BA%8E%E6%9C%89%E9%A2%9C%E8%89%B2%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D19%26stream_entry_id%3D31%26q%3D%2523Celine%25E7%25BB%2588%25E4%25BA%258E%25E6%259C%2589%25E9%25A2%259C%25E8%2589%25B2%25E4%25BA%2586%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D19%26pos%3D18%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 为什么现代人不把古人传下来的 2 月 28 天这种「屎山代码」改掉？</title>
-      <link>https://www.zhihu.com/question/1956420599535637827</link>
-      <description>排名: 3 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1956420599535637827</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[weibo] 河南卫视太有审美了</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86%E5%A4%AA%E6%9C%89%E5%AE%A1%E7%BE%8E%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D18%26stream_entry_id%3D31%26q%3D%25E6%25B2%25B3%25E5%258D%2597%25E5%258D%25AB%25E8%25A7%2586%25E5%25A4%25AA%25E6%259C%2589%25E5%25AE%25A1%25E7%25BE%258E%25E4%25BA%2586%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D18%26pos%3D17%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 18 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86%E5%A4%AA%E6%9C%89%E5%AE%A1%E7%BE%8E%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D18%26stream_entry_id%3D31%26q%3D%25E6%25B2%25B3%25E5%258D%2597%25E5%258D%25AB%25E8%25A7%2586%25E5%25A4%25AA%25E6%259C%2589%25E5%25AE%25A1%25E7%25BE%258E%25E4%25BA%2586%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D18%26pos%3D17%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 9月的工资不用打给我了</title>
-      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D9%E6%9C%88%E7%9A%84%E5%B7%A5%E8%B5%84%E4%B8%8D%E7%94%A8%E6%89%93%E7%BB%99%E6%88%91%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D1%26q%3D9%25E6%259C%2588%25E7%259A%2584%25E5%25B7%25A5%25E8%25B5%2584%25E4%25B8%258D%25E7%2594%25A8%25E6%2589%2593%25E7%25BB%2599%25E6%2588%2591%25E4%25BA%2586%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D2%26cate%3D5001%26realpos%3D2%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</link>
-      <description>排名: 2 | 出现次数: 1 | 时间范围: 12时34分</description>
-      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D9%E6%9C%88%E7%9A%84%E5%B7%A5%E8%B5%84%E4%B8%8D%E7%94%A8%E6%89%93%E7%BB%99%E6%88%91%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26flag%3D1%26pos%3D1%26q%3D9%25E6%259C%2588%25E7%259A%2584%25E5%25B7%25A5%25E8%25B5%2584%25E4%25B8%258D%25E7%2594%25A8%25E6%2589%2593%25E7%25BB%2599%25E6%2588%2591%25E4%25BA%2586%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26filter_type%3Drealtimehot%26band_rank%3D2%26cate%3D5001%26realpos%3D2%26display_time%3D1759638168%26pre_seqid%3D17596381687470235063071</guid>
-      <pubDate>Sun, 05 Oct 2025 12:34:00 +0800</pubDate>
+      <title>[zhihu] 呼和浩特是一个怎样的城市？</title>
+      <link>https://www.zhihu.com/question/30120511</link>
+      <description>排名: 16 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/30120511</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[今日头条] 王俊凯父母开的奶茶店总店将停业</title>
+      <link>https://www.toutiao.com/trending/7557598078640095271/</link>
+      <description>排名: 16 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7557598078640095271/</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[zhihu] 你对于 2025 年诺贝尔生理学或医学奖的预测是什么？谁最有可能获奖？</title>
+      <link>https://www.zhihu.com/question/1952845741346230412</link>
+      <description>排名: 15 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1952845741346230412</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[百度热搜] 鹦鹉把家里的事全抖出来了</title>
+      <link>https://www.baidu.com/s?wd=%E9%B9%A6%E9%B9%89%E6%8A%8A%E5%AE%B6%E9%87%8C%E7%9A%84%E4%BA%8B%E5%85%A8%E6%8A%96%E5%87%BA%E6%9D%A5%E4%BA%86</link>
+      <description>排名: 14 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E9%B9%A6%E9%B9%89%E6%8A%8A%E5%AE%B6%E9%87%8C%E7%9A%84%E4%BA%8B%E5%85%A8%E6%8A%96%E5%87%BA%E6%9D%A5%E4%BA%86</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[今日头条] 谍战剧《沉默的荣耀》为何口碑爆棚</title>
+      <link>https://www.toutiao.com/trending/7557653773313642003/</link>
+      <description>排名: 14 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7557653773313642003/</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[weibo] 马思纯掀桌了</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%A9%AC%E6%80%9D%E7%BA%AF%E6%8E%80%E6%A1%8C%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D13%26stream_entry_id%3D31%26q%3D%25E9%25A9%25AC%25E6%2580%259D%25E7%25BA%25AF%25E6%258E%2580%25E6%25A1%258C%25E4%25BA%2586%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D2%26c_type%3D31%26realpos%3D13%26pos%3D12%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 13 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E9%A9%AC%E6%80%9D%E7%BA%AF%E6%8E%80%E6%A1%8C%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D13%26stream_entry_id%3D31%26q%3D%25E9%25A9%25AC%25E6%2580%259D%25E7%25BA%25AF%25E6%258E%2580%25E6%25A1%258C%25E4%25BA%2586%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D2%26c_type%3D31%26realpos%3D13%26pos%3D12%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[bilibili 热搜] 适合长假出游的国外景点</title>
+      <link>https://search.bilibili.com/all?keyword=%E9%80%82%E5%90%88%E9%95%BF%E5%81%87%E5%87%BA%E6%B8%B8%E7%9A%84%E5%9B%BD%E5%A4%96%E6%99%AF%E7%82%B9</link>
+      <description>排名: 13 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E9%80%82%E5%90%88%E9%95%BF%E5%81%87%E5%87%BA%E6%B8%B8%E7%9A%84%E5%9B%BD%E5%A4%96%E6%99%AF%E7%82%B9</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[weibo] 迪丽热巴 河南送你了</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4+%E6%B2%B3%E5%8D%97%E9%80%81%E4%BD%A0%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D12%26stream_entry_id%3D31%26q%3D%25E8%25BF%25AA%25E4%25B8%25BD%25E7%2583%25AD%25E5%25B7%25B4%2520%25E6%25B2%25B3%25E5%258D%2597%25E9%2580%2581%25E4%25BD%25A0%25E4%25BA%2586%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D12%26pos%3D11%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 12 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4+%E6%B2%B3%E5%8D%97%E9%80%81%E4%BD%A0%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D12%26stream_entry_id%3D31%26q%3D%25E8%25BF%25AA%25E4%25B8%25BD%25E7%2583%25AD%25E5%25B7%25B4%2520%25E6%25B2%25B3%25E5%258D%2597%25E9%2580%2581%25E4%25BD%25A0%25E4%25BA%2586%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D12%26pos%3D11%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[凤凰网] “鸡排哥”称国庆只用了60%功力，喊话游客不要低估他的能力</title>
+      <link>https://news.ifeng.com/c/8nCvkBZHjs1</link>
+      <description>排名: 12 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8nCvkBZHjs1</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[今日头条] 邓亚萍谈王楚钦：他真的是靠意志在顶</title>
+      <link>https://www.toutiao.com/trending/7556585240643289114/</link>
+      <description>排名: 12 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7556585240643289114/</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[weibo] 国庆档10亿大项目你参与了吗</title>
+      <link>https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%9B%BD%E5%BA%86%E6%A1%A310%E4%BA%BF%E5%A4%A7%E9%A1%B9%E7%9B%AE%E4%BD%A0%E5%8F%82%E4%B8%8E%E4%BA%86%E5%90%97%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D11%26stream_entry_id%3D31%26q%3D%2523%25E5%259B%25BD%25E5%25BA%2586%25E6%25A1%25A310%25E4%25BA%25BF%25E5%25A4%25A7%25E9%25A1%25B9%25E7%259B%25AE%25E4%25BD%25A0%25E5%258F%2582%25E4%25B8%258E%25E4%25BA%2586%25E5%2590%2597%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D11%26pos%3D10%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</link>
+      <description>排名: 11 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%9B%BD%E5%BA%86%E6%A1%A310%E4%BA%BF%E5%A4%A7%E9%A1%B9%E7%9B%AE%E4%BD%A0%E5%8F%82%E4%B8%8E%E4%BA%86%E5%90%97%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D11%26stream_entry_id%3D31%26q%3D%2523%25E5%259B%25BD%25E5%25BA%2586%25E6%25A1%25A310%25E4%25BA%25BF%25E5%25A4%25A7%25E9%25A1%25B9%25E7%259B%25AE%25E4%25BD%25A0%25E5%258F%2582%25E4%25B8%258E%25E4%25BA%2586%25E5%2590%2597%2523%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26realpos%3D11%26pos%3D10%26cate%3D5001%26display_time%3D1759670032%26pre_seqid%3D17596700325970235283069</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[zhihu] 车评人陈震再次发文道歉，此前多次强调以 EDR 数据为准，如何评价？EDR 数据的实际意义是什么？</title>
+      <link>https://www.zhihu.com/question/1958193242781741773</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1958193242781741773</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[凤凰网] 游客称因大雪被困喀纳斯，2小时车程走了12小时</title>
+      <link>https://news.ifeng.com/c/8nCpaLejQT2</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8nCpaLejQT2</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[今日头条] 奇瑞终于圆了上市梦</title>
+      <link>https://www.toutiao.com/trending/7557677974238006847/</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7557677974238006847/</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[百度热搜] 越来越多人爱上了“窝囊游”</title>
+      <link>https://www.baidu.com/s?wd=%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%88%B1%E4%B8%8A%E4%BA%86%E2%80%9C%E7%AA%9D%E5%9B%8A%E6%B8%B8%E2%80%9D</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%88%B1%E4%B8%8A%E4%BA%86%E2%80%9C%E7%AA%9D%E5%9B%8A%E6%B8%B8%E2%80%9D</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[zhihu] 北大医学部和北京大学是什么关系？</title>
+      <link>https://www.zhihu.com/question/33312431</link>
+      <description>排名: 7 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/33312431</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[澎湃新闻] 马上评｜又见长城上刻字，除了拘留罚款还能做什么</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_31727869</link>
+      <description>排名: 7 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_31727869</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[华尔街见闻] 沙特“凶猛扩产”的背后：帮特朗普“压低油价”，也帮OPEC夺回份额</title>
+      <link>https://wallstreetcn.com/articles/3756690</link>
+      <description>排名: 7 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3756690</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[zhihu] 小勒布伦说中国男单统治力下降，能打败他们的人变多了，真的如此吗？国乒如今的核心对手都有谁？</title>
+      <link>https://www.zhihu.com/question/1958204105295094742</link>
+      <description>排名: 6 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1958204105295094742</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[douyin] 明天就是中秋节了</title>
+      <link>https://www.douyin.com/hot/2259640</link>
+      <description>排名: 5 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2259640</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[澎湃新闻] 再上冬克玛底冰川丨一年之间，长江源区冬克玛底冰川发生了什么变化</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_31450603</link>
+      <description>排名: 5 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_31450603</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[douyin] 共赏古诗词里的“月”</title>
+      <link>https://www.douyin.com/hot/2260434</link>
+      <description>排名: 3 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2260434</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[zhihu] 网上说英国工业革命时期用两岁童工，可是两岁的孩子连筷子都拿不稳，这是什么情况？</title>
+      <link>https://www.zhihu.com/question/1955617818457409128</link>
+      <description>排名: 2 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1955617818457409128</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[zhihu] 如何看待《三角洲行动》10 月 5 日发的调整公告?</title>
+      <link>https://www.zhihu.com/question/1958187707298743724</link>
+      <description>排名: 1 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1958187707298743724</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[百度热搜] 到了冰岛以为没出国 身边全是中国话</title>
+      <link>https://www.baidu.com/s?wd=%E5%88%B0%E4%BA%86%E5%86%B0%E5%B2%9B%E4%BB%A5%E4%B8%BA%E6%B2%A1%E5%87%BA%E5%9B%BD+%E8%BA%AB%E8%BE%B9%E5%85%A8%E6%98%AF%E4%B8%AD%E5%9B%BD%E8%AF%9D</link>
+      <description>排名: 1 | 出现次数: 1 | 时间范围: 21时15分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E5%88%B0%E4%BA%86%E5%86%B0%E5%B2%9B%E4%BB%A5%E4%B8%BA%E6%B2%A1%E5%87%BA%E5%9B%BD+%E8%BA%AB%E8%BE%B9%E5%85%A8%E6%98%AF%E4%B8%AD%E5%9B%BD%E8%AF%9D</guid>
+      <pubDate>Sun, 05 Oct 2025 21:15:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
