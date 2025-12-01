@@ -7,223 +7,356 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Dec 2025 05:00:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 13:29:14 +0000</lastBuildDate>
     <item>
-      <title>[今日头条] 佳能中山裁员有员工拿了40万补偿</title>
-      <link>https://www.toutiao.com/trending/7578676984939564586/</link>
-      <description>排名: 14 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7578676984939564586/</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[凤凰网] 马斯克：我应该少碰政治</title>
+      <link>https://news.ifeng.com/c/8ojSkf95Puf</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8ojSkf95Puf</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[百度热搜] 万亿冰雪经济“上新” 解锁新玩法</title>
-      <link>https://www.baidu.com/s?wd=%E4%B8%87%E4%BA%BF%E5%86%B0%E9%9B%AA%E7%BB%8F%E6%B5%8E%E2%80%9C%E4%B8%8A%E6%96%B0%E2%80%9D+%E8%A7%A3%E9%94%81%E6%96%B0%E7%8E%A9%E6%B3%95</link>
-      <description>排名: 3 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E4%B8%87%E4%BA%BF%E5%86%B0%E9%9B%AA%E7%BB%8F%E6%B5%8E%E2%80%9C%E4%B8%8A%E6%96%B0%E2%80%9D+%E8%A7%A3%E9%94%81%E6%96%B0%E7%8E%A9%E6%B3%95</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[华尔街见闻] 人形机器人成本结构巨变！半导体占比将激增至24%，聚焦“大脑+视觉+传感”三大核心赛道</title>
+      <link>https://wallstreetcn.com/articles/3760430</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3760430</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[bilibili 热搜] 中式苹果炖猪排</title>
-      <link>https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%BC%8F%E8%8B%B9%E6%9E%9C%E7%82%96%E7%8C%AA%E6%8E%92</link>
-      <description>排名: 19 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%BC%8F%E8%8B%B9%E6%9E%9C%E7%82%96%E7%8C%AA%E6%8E%92</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[财联社热门] 以军下令：高级军官禁用安卓手机，统一使用iPhone</title>
+      <link>https://www.cls.cn/detail/2215866</link>
+      <description>排名: 11 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.cls.cn/detail/2215866</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 如何评价苹果将在 2027 年使用 Intel 18A-P 工艺制造低端 M 系列 SoC？</title>
-      <link>https://www.zhihu.com/question/1978148539101114855</link>
-      <description>排名: 18 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1978148539101114855</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[华尔街见闻] 大摩大幅上调谷歌TPU产量预测：2027年达500万块，每50万块“外销”或增收130亿美元</title>
+      <link>https://wallstreetcn.com/articles/3760440</link>
+      <description>排名: 7 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3760440</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 如何评价《原神》角色预告 -「雅珂达：猎无空过」？</title>
-      <link>https://www.zhihu.com/question/1978433958271262777</link>
-      <description>排名: 16 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1978433958271262777</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[zhihu] 华为 mate80 无网通信，就是 700MHz 频段的对讲机，它会干扰移动 700MHz 网络吗？</title>
+      <link>https://www.zhihu.com/question/1977536023505412441</link>
+      <description>排名: 17 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1977536023505412441</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[百度热搜] 小米汽车将开放“现车选购”</title>
-      <link>https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%B0%86%E5%BC%80%E6%94%BE%E2%80%9C%E7%8E%B0%E8%BD%A6%E9%80%89%E8%B4%AD%E2%80%9D</link>
-      <description>排名: 25 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%B0%86%E5%BC%80%E6%94%BE%E2%80%9C%E7%8E%B0%E8%BD%A6%E9%80%89%E8%B4%AD%E2%80%9D</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[zhihu] 鸿蒙智行全系车型 2025 年 11 月交付量 81864 台，如何看待这一成就？哪些优势吸引了消费者？</title>
+      <link>https://www.zhihu.com/question/1978785626489897728</link>
+      <description>排名: 14 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1978785626489897728</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 岚图汽车11月交付20005辆</title>
-      <link>https://www.toutiao.com/trending/7578705598729469995/</link>
-      <description>排名: 21 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7578705598729469995/</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[百度热搜] DeepSeek同时发布两个正式版模型</title>
+      <link>https://www.baidu.com/s?wd=DeepSeek%E5%90%8C%E6%97%B6%E5%8F%91%E5%B8%83%E4%B8%A4%E4%B8%AA%E6%AD%A3%E5%BC%8F%E7%89%88%E6%A8%A1%E5%9E%8B</link>
+      <description>排名: 25 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=DeepSeek%E5%90%8C%E6%97%B6%E5%8F%91%E5%B8%83%E4%B8%A4%E4%B8%AA%E6%AD%A3%E5%BC%8F%E7%89%88%E6%A8%A1%E5%9E%8B</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[douyin] 小米汽车将开放现车选购</title>
-      <link>https://www.douyin.com/hot/2322868</link>
-      <description>排名: 10 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.douyin.com/hot/2322868</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[zhihu] DeepSeek 更新两个 v3.2 新模型，这次有哪些亮点？</title>
+      <link>https://www.zhihu.com/question/1978819912970555965</link>
+      <description>排名: 12 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1978819912970555965</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 普京为何突然带货中国电动汽车</title>
-      <link>https://www.toutiao.com/trending/7578661450617458212/</link>
-      <description>排名: 6 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7578661450617458212/</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[华尔街见闻] 开源最强，逼平闭源顶流！DeepSeek发布V3.2系列模型，推理能力追平GPT-5</title>
+      <link>https://wallstreetcn.com/articles/3760461</link>
+      <description>排名: 8 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3760461</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 没想到夸克AI浏览器还可以这么用</title>
-      <link>https://s.weibo.com/weibo?q=%23%E6%B2%A1%E6%83%B3%E5%88%B0%E5%A4%B8%E5%85%8BAI%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E4%B9%88%E7%94%A8%23&amp;t=31&amp;band_rank=15&amp;Refer=top</link>
-      <description>排名: 15 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%23%E6%B2%A1%E6%83%B3%E5%88%B0%E5%A4%B8%E5%85%8BAI%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E4%B9%88%E7%94%A8%23&amp;t=31&amp;band_rank=15&amp;Refer=top</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[weibo] 顾客买鞋子仅退款发AI图</title>
+      <link>https://s.weibo.com/weibo?q=%23%E9%A1%BE%E5%AE%A2%E4%B9%B0%E9%9E%8B%E5%AD%90%E4%BB%85%E9%80%80%E6%AC%BE%E5%8F%91AI%E5%9B%BE%23&amp;t=31&amp;band_rank=25&amp;Refer=top</link>
+      <description>排名: 25 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%23%E9%A1%BE%E5%AE%A2%E4%B9%B0%E9%9E%8B%E5%AD%90%E4%BB%85%E9%80%80%E6%AC%BE%E5%8F%91AI%E5%9B%BE%23&amp;t=31&amp;band_rank=25&amp;Refer=top</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[财联社热门] 华为首款AI情绪陪伴玩具售罄缺货 AI端侧赛道投资价值凸现</title>
-      <link>https://www.cls.cn/detail/2215245</link>
-      <description>排名: 13 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.cls.cn/detail/2215245</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[今日头条] 顾客买鞋子仅退款拿AI视频当凭证</title>
+      <link>https://www.toutiao.com/trending/7578774499518169151/</link>
+      <description>排名: 25 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7578774499518169151/</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[财联社热门] 字节搅动端侧AI风云！豆包发布手机助手预览版 又一轮换机潮可期？</title>
-      <link>https://www.cls.cn/detail/2215541</link>
-      <description>排名: 12 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.cls.cn/detail/2215541</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[财联社热门] 马斯克震撼预言：AI将在三年内终结美国“债务危机”！</title>
+      <link>https://www.cls.cn/detail/2215716</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.cls.cn/detail/2215716</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[华尔街见闻] 直接嵌入手机系统！豆包AI手机，帮你跨平台比价点外卖、自动回消息</title>
-      <link>https://wallstreetcn.com/articles/3760431</link>
-      <description>排名: 9 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://wallstreetcn.com/articles/3760431</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[华尔街见闻] 三年前，ChatGPT发布，“AI狂潮”席卷全球，一个新时代拉开帷幕</title>
+      <link>https://wallstreetcn.com/articles/3760419</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://wallstreetcn.com/articles/3760419</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 黄雅琼婚礼的钻戒不会被教练说小了</title>
-      <link>https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%9B%85%E7%90%BC%E5%A9%9A%E7%A4%BC%E7%9A%84%E9%92%BB%E6%88%92%E4%B8%8D%E4%BC%9A%E8%A2%AB%E6%95%99%E7%BB%83%E8%AF%B4%E5%B0%8F%E4%BA%86%23&amp;t=31&amp;band_rank=27&amp;Refer=top</link>
-      <description>排名: 27 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%9B%85%E7%90%BC%E5%A9%9A%E7%A4%BC%E7%9A%84%E9%92%BB%E6%88%92%E4%B8%8D%E4%BC%9A%E8%A2%AB%E6%95%99%E7%BB%83%E8%AF%B4%E5%B0%8F%E4%BA%86%23&amp;t=31&amp;band_rank=27&amp;Refer=top</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[财联社热门] 【每日收评】三大指数震荡走强放量收红！沪指重返3900点，AI端侧方向迎集体爆发</title>
+      <link>https://www.cls.cn/detail/2215927</link>
+      <description>排名: 4 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.cls.cn/detail/2215927</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 中国航天第一次应急发射的背后故事</title>
-      <link>https://www.toutiao.com/trending/7578687114334703145/</link>
-      <description>排名: 27 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7578687114334703145/</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[今日头条] 男子扫了张“诱惑”小卡片损失56万</title>
+      <link>https://www.toutiao.com/trending/7578775835084259355/</link>
+      <description>排名: 30 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7578775835084259355/</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 已经到了不认识TFBOYS的时代了</title>
-      <link>https://s.weibo.com/weibo?q=%E5%B7%B2%E7%BB%8F%E5%88%B0%E4%BA%86%E4%B8%8D%E8%AE%A4%E8%AF%86TFBOYS%E7%9A%84%E6%97%B6%E4%BB%A3%E4%BA%86&amp;t=31&amp;band_rank=26&amp;Refer=top</link>
-      <description>排名: 26 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%E5%B7%B2%E7%BB%8F%E5%88%B0%E4%BA%86%E4%B8%8D%E8%AE%A4%E8%AF%86TFBOYS%E7%9A%84%E6%97%B6%E4%BB%A3%E4%BA%86&amp;t=31&amp;band_rank=26&amp;Refer=top</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[douyin] 十二月的你运气节节高</title>
+      <link>https://www.douyin.com/hot/2323111</link>
+      <description>排名: 29 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2323111</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 2026年该存钱还是买房</title>
-      <link>https://www.toutiao.com/trending/7578689350280416819/</link>
-      <description>排名: 25 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7578689350280416819/</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[weibo] 张若昀梳了丸子头</title>
+      <link>https://s.weibo.com/weibo?q=%E5%BC%A0%E8%8B%A5%E6%98%80%E6%A2%B3%E4%BA%86%E4%B8%B8%E5%AD%90%E5%A4%B4&amp;t=31&amp;band_rank=29&amp;Refer=top</link>
+      <description>排名: 29 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%E5%BC%A0%E8%8B%A5%E6%98%80%E6%A2%B3%E4%BA%86%E4%B8%B8%E5%AD%90%E5%A4%B4&amp;t=31&amp;band_rank=29&amp;Refer=top</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 朱亚文向涵之是主角会爆成啥样</title>
-      <link>https://s.weibo.com/weibo?q=%E6%9C%B1%E4%BA%9A%E6%96%87%E5%90%91%E6%B6%B5%E4%B9%8B%E6%98%AF%E4%B8%BB%E8%A7%92%E4%BC%9A%E7%88%86%E6%88%90%E5%95%A5%E6%A0%B7&amp;t=31&amp;band_rank=24&amp;Refer=top</link>
-      <description>排名: 24 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%E6%9C%B1%E4%BA%9A%E6%96%87%E5%90%91%E6%B6%B5%E4%B9%8B%E6%98%AF%E4%B8%BB%E8%A7%92%E4%BC%9A%E7%88%86%E6%88%90%E5%95%A5%E6%A0%B7&amp;t=31&amp;band_rank=24&amp;Refer=top</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[douyin] 神20返回舱玻璃裂纹是个三角形</title>
+      <link>https://www.douyin.com/hot/2322803</link>
+      <description>排名: 28 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2322803</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[douyin] 卢昱晓：一只跟腱短的鸟人</title>
-      <link>https://www.douyin.com/hot/2322848</link>
-      <description>排名: 22 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.douyin.com/hot/2322848</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[weibo] 朱志鑫的百度百科</title>
+      <link>https://s.weibo.com/weibo?q=%23%E6%9C%B1%E5%BF%97%E9%91%AB%E7%9A%84%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%23&amp;t=31&amp;band_rank=27&amp;Refer=top</link>
+      <description>排名: 27 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%23%E6%9C%B1%E5%BF%97%E9%91%AB%E7%9A%84%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%23&amp;t=31&amp;band_rank=27&amp;Refer=top</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 如果你的收入每个月达到了 15000，你的生活会有什么不一样呢？</title>
-      <link>https://www.zhihu.com/question/1973295467900187481</link>
-      <description>排名: 20 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1973295467900187481</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[weibo] 终于有剧不为了美随意换衣服了</title>
+      <link>https://s.weibo.com/weibo?q=%E7%BB%88%E4%BA%8E%E6%9C%89%E5%89%A7%E4%B8%8D%E4%B8%BA%E4%BA%86%E7%BE%8E%E9%9A%8F%E6%84%8F%E6%8D%A2%E8%A1%A3%E6%9C%8D%E4%BA%86&amp;t=31&amp;band_rank=26&amp;Refer=top</link>
+      <description>排名: 26 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%E7%BB%88%E4%BA%8E%E6%9C%89%E5%89%A7%E4%B8%8D%E4%B8%BA%E4%BA%86%E7%BE%8E%E9%9A%8F%E6%84%8F%E6%8D%A2%E8%A1%A3%E6%9C%8D%E4%BA%86&amp;t=31&amp;band_rank=26&amp;Refer=top</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 小区楼房总层 33 楼，我家住 32 楼，如果楼下发生火灾的话可以跑楼顶天台避火吗？</title>
-      <link>https://www.zhihu.com/question/1971960081399657822</link>
-      <description>排名: 19 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1971960081399657822</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[douyin] 童话碰上R&amp;B绝了</title>
+      <link>https://www.douyin.com/hot/2322243</link>
+      <description>排名: 22 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2322243</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 一年级的陈思成参加艺考</title>
-      <link>https://s.weibo.com/weibo?q=%E4%B8%80%E5%B9%B4%E7%BA%A7%E7%9A%84%E9%99%88%E6%80%9D%E6%88%90%E5%8F%82%E5%8A%A0%E8%89%BA%E8%80%83&amp;t=31&amp;band_rank=19&amp;Refer=top</link>
-      <description>排名: 19 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%E4%B8%80%E5%B9%B4%E7%BA%A7%E7%9A%84%E9%99%88%E6%80%9D%E6%88%90%E5%8F%82%E5%8A%A0%E8%89%BA%E8%80%83&amp;t=31&amp;band_rank=19&amp;Refer=top</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[今日头条] 超1900个去日本的航班取消</title>
+      <link>https://www.toutiao.com/trending/7578073138874253318/</link>
+      <description>排名: 22 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7578073138874253318/</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[澎湃新闻] 马上评︱奶精加淀粉假冒进口奶粉，击穿了多少底线</title>
-      <link>https://m.thepaper.cn/newsDetail_forward_32075836</link>
-      <description>排名: 19 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_32075836</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[douyin] 我们拍到了大白鲨</title>
+      <link>https://www.douyin.com/hot/2323070</link>
+      <description>排名: 21 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2323070</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[今日头条] 03式中程地空导弹是一款怎样的武器</title>
-      <link>https://www.toutiao.com/trending/7578723328102239750/</link>
-      <description>排名: 18 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.toutiao.com/trending/7578723328102239750/</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[weibo] 月薪一万八但无意义的工作</title>
+      <link>https://s.weibo.com/weibo?q=%E6%9C%88%E8%96%AA%E4%B8%80%E4%B8%87%E5%85%AB%E4%BD%86%E6%97%A0%E6%84%8F%E4%B9%89%E7%9A%84%E5%B7%A5%E4%BD%9C&amp;t=31&amp;band_rank=21&amp;Refer=top</link>
+      <description>排名: 21 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%E6%9C%88%E8%96%AA%E4%B8%80%E4%B8%87%E5%85%AB%E4%BD%86%E6%97%A0%E6%84%8F%E4%B9%89%E7%9A%84%E5%B7%A5%E4%BD%9C&amp;t=31&amp;band_rank=21&amp;Refer=top</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[百度热搜] 钟声：一个什么样的日本“又回来了”</title>
-      <link>https://www.baidu.com/s?wd=%E9%92%9F%E5%A3%B0%EF%BC%9A%E4%B8%80%E4%B8%AA%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%97%A5%E6%9C%AC%E2%80%9C%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%E2%80%9D</link>
-      <description>排名: 15 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E9%92%9F%E5%A3%B0%EF%BC%9A%E4%B8%80%E4%B8%AA%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%97%A5%E6%9C%AC%E2%80%9C%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%E2%80%9D</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[澎湃新闻] 日方对自身在台湾问题上的立场一再含糊其辞，外交部：某些人从未真正汲取历史教训</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_32076869</link>
+      <description>排名: 19 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_32076869</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 如何看待 2025 年 11 月 30 日《疯狂动物城 2》的预测总票房再次大幅提升至 42.6 亿？</title>
-      <link>https://www.zhihu.com/question/1978406842355967644</link>
-      <description>排名: 14 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/1978406842355967644</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[澎湃新闻] 人民日报钟声：日本所谓“台湾地位未定”论，是对历史的无知和现实的误判</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_32075101</link>
+      <description>排名: 13 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_32075101</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[douyin] 冬天的第一顿火锅在家吃</title>
-      <link>https://www.douyin.com/hot/2322827</link>
-      <description>排名: 14 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.douyin.com/hot/2322827</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[凤凰网] 举报公职人员的店主喝农药，为什么走到这一步？</title>
+      <link>https://news.ifeng.com/c/8ojSkf95Puy</link>
+      <description>排名: 12 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8ojSkf95Puy</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[百度热搜] 日本国脚合影的战犯是谁</title>
-      <link>https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%9B%BD%E8%84%9A%E5%90%88%E5%BD%B1%E7%9A%84%E6%88%98%E7%8A%AF%E6%98%AF%E8%B0%81</link>
-      <description>排名: 13 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%9B%BD%E8%84%9A%E5%90%88%E5%BD%B1%E7%9A%84%E6%88%98%E7%8A%AF%E6%98%AF%E8%B0%81</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[zhihu] 电影《疯狂动物城 2》中有哪些有趣的细节？</title>
+      <link>https://www.zhihu.com/question/1978419679132411008</link>
+      <description>排名: 11 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1978419679132411008</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[zhihu] 如果曹雪芹版《红楼梦》后 40 回于现在找寻到了，会引起怎样的轰动？</title>
-      <link>https://www.zhihu.com/question/398212857</link>
-      <description>排名: 10 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://www.zhihu.com/question/398212857</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[凤凰网] 3亿国资，黄了</title>
+      <link>https://news.ifeng.com/c/8ojP5bagcd6</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8ojP5bagcd6</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[bilibili 热搜] 战争中设计的puzzle谜题</title>
-      <link>https://search.bilibili.com/all?keyword=%E6%88%98%E4%BA%89%E4%B8%AD%E8%AE%BE%E8%AE%A1%E7%9A%84puzzle%E8%B0%9C%E9%A2%98</link>
-      <description>排名: 9 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E6%88%98%E4%BA%89%E4%B8%AD%E8%AE%BE%E8%AE%A1%E7%9A%84puzzle%E8%B0%9C%E9%A2%98</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[百度热搜] 200元一片的流感药购买人数暴增6倍</title>
+      <link>https://www.baidu.com/s?wd=200%E5%85%83%E4%B8%80%E7%89%87%E7%9A%84%E6%B5%81%E6%84%9F%E8%8D%AF%E8%B4%AD%E4%B9%B0%E4%BA%BA%E6%95%B0%E6%9A%B4%E5%A2%9E6%E5%80%8D</link>
+      <description>排名: 10 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=200%E5%85%83%E4%B8%80%E7%89%87%E7%9A%84%E6%B5%81%E6%84%9F%E8%8D%AF%E8%B4%AD%E4%B9%B0%E4%BA%BA%E6%95%B0%E6%9A%B4%E5%A2%9E6%E5%80%8D</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
     <item>
-      <title>[weibo] 高市宣称日本又回来了</title>
-      <link>https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%B8%82%E5%AE%A3%E7%A7%B0%E6%97%A5%E6%9C%AC%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%23&amp;t=31&amp;band_rank=6&amp;Refer=top</link>
-      <description>排名: 6 | 出现次数: 1 | 时间范围: 13时00分</description>
-      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%B8%82%E5%AE%A3%E7%A7%B0%E6%97%A5%E6%9C%AC%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%23&amp;t=31&amp;band_rank=6&amp;Refer=top</guid>
-      <pubDate>Mon, 01 Dec 2025 13:00:00 +0800</pubDate>
+      <title>[zhihu] 暨南大学要求回宿舍学生接受安检，这一规定合理吗？你认为回宿舍进行安检的必要性大吗？</title>
+      <link>https://www.zhihu.com/question/1978586454100833170</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1978586454100833170</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[douyin] 恋综同款穿搭来了</title>
+      <link>https://www.douyin.com/hot/2322159</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2322159</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[tieba] 孙笑川入局!三角洲背锅侠锁定了</title>
+      <link>https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347633&amp;amp;topic_name=%E5%AD%99%E7%AC%91%E5%B7%9D%E5%85%A5%E5%B1%80%21%E4%B8%89%E8%A7%92%E6%B4%B2%E8%83%8C%E9%94%85%E4%BE%A0%E9%94%81%E5%AE%9A%E4%BA%86</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347633&amp;amp;topic_name=%E5%AD%99%E7%AC%91%E5%B7%9D%E5%85%A5%E5%B1%80%21%E4%B8%89%E8%A7%92%E6%B4%B2%E8%83%8C%E9%94%85%E4%BE%A0%E9%94%81%E5%AE%9A%E4%BA%86</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[财联社热门] 一图看懂|“蹦”的比黄金还高，白银的“天花板”在哪？</title>
+      <link>https://www.cls.cn/detail/2216138</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.cls.cn/detail/2216138</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[bilibili 热搜] 疯狂动物城1和2的核心差异</title>
+      <link>https://search.bilibili.com/all?keyword=%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E1%E5%92%8C2%E7%9A%84%E6%A0%B8%E5%BF%83%E5%B7%AE%E5%BC%82</link>
+      <description>排名: 9 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E1%E5%92%8C2%E7%9A%84%E6%A0%B8%E5%BF%83%E5%B7%AE%E5%BC%82</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[凤凰网] 普京开会时催促青年科学家要孩子：这个事情得抓紧了</title>
+      <link>https://news.ifeng.com/c/8ojKDE3wGK6</link>
+      <description>排名: 8 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8ojKDE3wGK6</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[bilibili 热搜] 卢旺达是如何学习中国的</title>
+      <link>https://search.bilibili.com/all?keyword=%E5%8D%A2%E6%97%BA%E8%BE%BE%E6%98%AF%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E4%B8%AD%E5%9B%BD%E7%9A%84</link>
+      <description>排名: 8 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E5%8D%A2%E6%97%BA%E8%BE%BE%E6%98%AF%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E4%B8%AD%E5%9B%BD%E7%9A%84</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[douyin] 她的每一步都是写给生活的励志诗</title>
+      <link>https://www.douyin.com/hot/2322562</link>
+      <description>排名: 7 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.douyin.com/hot/2322562</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[凤凰网] 特朗普拒邀南非参加明年G20峰会，南非：我们是创始成员国</title>
+      <link>https://news.ifeng.com/c/8ojNQ6MCJEg</link>
+      <description>排名: 7 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8ojNQ6MCJEg</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[澎湃新闻] 所谓滨崎步“一个人的演唱会”信息不实，系彩排期间被偷拍，摄像团队人员公开致歉</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_32077924</link>
+      <description>排名: 6 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_32077924</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[今日头条] 不会有“神二十二乘组”了</title>
+      <link>https://www.toutiao.com/trending/7578803618493500954/</link>
+      <description>排名: 6 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.toutiao.com/trending/7578803618493500954/</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[zhihu] 神二十返回舱受损细节公布，玻璃裂纹是三角形，从内到外已贯穿，还能修复吗？</title>
+      <link>https://www.zhihu.com/question/1978754335966983138</link>
+      <description>排名: 5 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.zhihu.com/question/1978754335966983138</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[凤凰网] 12月中国境内到日本的计划航班取消超40%</title>
+      <link>https://news.ifeng.com/c/8ojgsmq1jiz</link>
+      <description>排名: 5 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8ojgsmq1jiz</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[bilibili 热搜] 初代网红后舍男生来了</title>
+      <link>https://search.bilibili.com/all?keyword=%E5%88%9D%E4%BB%A3%E7%BD%91%E7%BA%A2%E5%90%8E%E8%88%8D%E7%94%B7%E7%94%9F%E6%9D%A5%E4%BA%86</link>
+      <description>排名: 5 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E5%88%9D%E4%BB%A3%E7%BD%91%E7%BA%A2%E5%90%8E%E8%88%8D%E7%94%B7%E7%94%9F%E6%9D%A5%E4%BA%86</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[澎湃新闻] 香港宏福苑大火中的“当事者”们</title>
+      <link>https://m.thepaper.cn/newsDetail_forward_32075097</link>
+      <description>排名: 5 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://m.thepaper.cn/newsDetail_forward_32075097</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[凤凰网] 所谓滨崎步“一个人的演唱会”信息不实，摄像团队人员公开致歉</title>
+      <link>https://news.ifeng.com/c/8ojYX9cjVGF</link>
+      <description>排名: 4 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://news.ifeng.com/c/8ojYX9cjVGF</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[weibo] 治沙人种下的10万株玫瑰长大了</title>
+      <link>https://s.weibo.com/weibo?q=%23%E6%B2%BB%E6%B2%99%E4%BA%BA%E7%A7%8D%E4%B8%8B%E7%9A%8410%E4%B8%87%E6%A0%AA%E7%8E%AB%E7%91%B0%E9%95%BF%E5%A4%A7%E4%BA%86%23&amp;t=31&amp;band_rank=3&amp;Refer=top</link>
+      <description>排名: 3 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://s.weibo.com/weibo?q=%23%E6%B2%BB%E6%B2%99%E4%BA%BA%E7%A7%8D%E4%B8%8B%E7%9A%8410%E4%B8%87%E6%A0%AA%E7%8E%AB%E7%91%B0%E9%95%BF%E5%A4%A7%E4%BA%86%23&amp;t=31&amp;band_rank=3&amp;Refer=top</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[bilibili 热搜] 中国航天首次应急发射经历了什么</title>
+      <link>https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E9%A6%96%E6%AC%A1%E5%BA%94%E6%80%A5%E5%8F%91%E5%B0%84%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88</link>
+      <description>排名: 3 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E9%A6%96%E6%AC%A1%E5%BA%94%E6%80%A5%E5%8F%91%E5%B0%84%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[百度热搜] 20元代上课50元代跑 校方出手了</title>
+      <link>https://www.baidu.com/s?wd=20%E5%85%83%E4%BB%A3%E4%B8%8A%E8%AF%BE50%E5%85%83%E4%BB%A3%E8%B7%91+%E6%A0%A1%E6%96%B9%E5%87%BA%E6%89%8B%E4%BA%86</link>
+      <description>排名: 2 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=20%E5%85%83%E4%BB%A3%E4%B8%8A%E8%AF%BE50%E5%85%83%E4%BB%A3%E8%B7%91+%E6%A0%A1%E6%96%B9%E5%87%BA%E6%89%8B%E4%BA%86</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[百度热搜] 局地-40℃极寒 下半年最冷一天来了</title>
+      <link>https://www.baidu.com/s?wd=%E5%B1%80%E5%9C%B0-40%E2%84%83%E6%9E%81%E5%AF%92+%E4%B8%8B%E5%8D%8A%E5%B9%B4%E6%9C%80%E5%86%B7%E4%B8%80%E5%A4%A9%E6%9D%A5%E4%BA%86</link>
+      <description>排名: 1 | 出现次数: 1 | 时间范围: 21时29分</description>
+      <guid isPermaLink="false">https://www.baidu.com/s?wd=%E5%B1%80%E5%9C%B0-40%E2%84%83%E6%9E%81%E5%AF%92+%E4%B8%8B%E5%8D%8A%E5%B9%B4%E6%9C%80%E5%86%B7%E4%B8%80%E5%A4%A9%E6%9D%A5%E4%BA%86</guid>
+      <pubDate>Mon, 01 Dec 2025 21:29:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
