@@ -53,7 +53,7 @@ CONFIG = {
 
 
 class TimeHelper:
-    """时间处理工具"""
+    """时间处理工具 - 已优化为纯数字格式以增强系统兼容性"""
 
     @staticmethod
     def get_beijing_time() -> datetime:
@@ -61,11 +61,13 @@ class TimeHelper:
 
     @staticmethod
     def format_date_folder() -> str:
-        return TimeHelper.get_beijing_time().strftime("%Y年%m月%d日")
+        # 以前："%Y年%m月%d日" -> 现在：20260202
+        return TimeHelper.get_beijing_time().strftime("%Y%m%d")
 
     @staticmethod
     def format_time_filename() -> str:
-        return TimeHelper.get_beijing_time().strftime("%H时%M分")
+        # 以前："%H时%M分" -> 现在：0921 (表示09时21分)
+        return TimeHelper.get_beijing_time().strftime("%H%M")
 
 
 class VersionChecker:
